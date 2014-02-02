@@ -57,33 +57,33 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\.DS_Store" />
-    <Content Include="Assets\Fragment Asset\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
-    <Content Include="Assets\Layout\Colors.rtf" />
-    <Content Include="Assets\Layout\PAEX1402_Eblast_v3FOF.pdf" />
-    <Content Include="Assets\Manuscript\EXPAREL_ISI.docx" />
-    <Content Include="Assets\Manuscript\PAEX1402_email templates_012714.docx" />
-    <Content Include="Assets\Manuscript\PAEX1402_gorfinefragment_012714_v7.docx" />
-    <Content Include="Guidance\1.%29 What is Approved Email.pdf" />
-    <Content Include="Guidance\2.%29 Sending an Approved Email.pdf" />
-    <Content Include="Guidance\Approved Email Content Creation Guidelines.pdf" />
-    <Content Include="Guidance\Approved Email Guide.pdf" />
-    <Content Include="Guidance\PAEX1402_emailtemplates_v4AMBSA12714.docx" />
-    <Content Include="Guidance\PAEX1402_gorfinefragment_012414_v4cxMBSA12714.docx" />
+    <Content Include="Veeva\Assets\.DS_Store" />
+    <Content Include="Veeva\Assets\Fragment Asset\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
+    <Content Include="Veeva\Assets\Layout\Colors.rtf" />
+    <Content Include="Veeva\Assets\Layout\PAEX1402_Eblast_v3FOF.pdf" />
+    <Content Include="Veeva\Assets\Manuscript\EXPAREL_ISI.docx" />
+    <Content Include="Veeva\Assets\Manuscript\PAEX1402_email templates_012714.docx" />
+    <Content Include="Veeva\Assets\Manuscript\PAEX1402_gorfinefragment_012714_v7.docx" />
     <Content Include="Veeva\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
-    <Content Include="misc\PAEX1402_Eblast_v3FOF_LR.pdf" />
-    <Content Include="misc\PAEX1402_emailtemplates_v4AMBSA12714 %281%29.docx" />
-    <Content Include="misc\PAEX1402_gorfinefragment_012414_v4cxMBSA12714 %281%29.docx" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Compliance Piece.docx" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Efficacy Piece.docx" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar ISI.docx" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar PI.docx" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarComplianceImages.zip" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEfficacyImages.zip" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages.zip" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages.zip" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\.DS_Store" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._.DS_Store" />
+    <Content Include="Veeva\misc\PAEX1402_Eblast_v3FOF_LR.pdf" />
+    <Content Include="Veeva\misc\PAEX1402_emailtemplates_v4AMBSA12714 %281%29.docx" />
+    <Content Include="Veeva\misc\PAEX1402_gorfinefragment_012414_v4cxMBSA12714 %281%29.docx" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Compliance Piece.docx" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Efficacy Piece.docx" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar ISI.docx" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar PI.docx" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarComplianceImages.zip" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEfficacyImages.zip" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages.zip" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateImages.zip" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateImages\.DS_Store" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._.DS_Store" />
+    <Content Include="Veeva\Guidance\1.%29 What is Approved Email.pdf" />
+    <Content Include="Veeva\Guidance\2.%29 Sending an Approved Email.pdf" />
+    <Content Include="Veeva\Guidance\Approved Email Content Creation Guidelines.pdf" />
+    <Content Include="Veeva\Guidance\Approved Email Guide.pdf" />
+    <Content Include="Veeva\Guidance\PAEX1402_emailtemplates_v4AMBSA12714.docx" />
+    <Content Include="Veeva\Guidance\PAEX1402_gorfinefragment_012414_v4cxMBSA12714.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,9 +92,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Images\Pacira-logo.png" />
-    <Content Include="Assets\Images\PAEX1402_eblast_top_banner.png" />
-    <Content Include="Assets\Images\PAEX1402_eblast_top_banner_corrected.png" />
+    <Content Include="Veeva\Assets\Images\Pacira-logo.png" />
+    <Content Include="Veeva\Assets\Images\PAEX1402_eblast_top_banner.png" />
+    <Content Include="Veeva\Assets\Images\PAEX1402_eblast_top_banner_corrected.png" />
     <Content Include="Veeva\Exparel Email Template - For Proofing.html" />
     <Content Include="Veeva\Exparel Email Template.html" />
     <Content Include="Veeva\GorifineFragment.html" />
@@ -103,21 +103,21 @@
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner_corrected.png" />
     <Content Include="Veeva\images\spacer.gif" />
-    <Content Include="misc\Screen Shot 2014-01-31 at 12.42.23 PM.png" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Email Fragment Compliance.html" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Email Fragment Efficacy.html" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Email Template Fragment.html" />
-    <Content Include="Restolar Demo Files\Restolar\Restolar Email Template.html" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarComplianceImages\spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEfficacyImages\spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages\spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\Restolar.png" />
-    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarComplianceImages\._spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEfficacyImages\._spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateFragmentImages\._spacer.gif" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._Restolar.png" />
-    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._spacer.gif" />
+    <Content Include="Veeva\misc\Screen Shot 2014-01-31 at 12.42.23 PM.png" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Email Fragment Compliance.html" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Email Fragment Efficacy.html" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Email Template Fragment.html" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Email Template.html" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarComplianceImages\spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEfficacyImages\spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages\spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateImages\Restolar.png" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\RestolarEmailTemplateImages\spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarComplianceImages\._spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarEfficacyImages\._spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateFragmentImages\._spacer.gif" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._Restolar.png" />
+    <Content Include="Veeva\Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._spacer.gif" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
