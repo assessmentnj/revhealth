@@ -95,7 +95,10 @@
     <Content Include="Assets\Images\Pacira-logo.png" />
     <Content Include="Assets\Images\PAEX1402_eblast_top_banner.png" />
     <Content Include="Assets\Images\PAEX1402_eblast_top_banner_corrected.png" />
+    <Content Include="HTML\Exparel Email Template - For Proofing.html" />
     <Content Include="HTML\Exparel Email Template.html" />
+    <Content Include="HTML\GorifineFragment.html" />
+    <Content Include="HTML\Exparel ISI Fragment.html" />
     <Content Include="HTML\images\Pacira-logo.png" />
     <Content Include="HTML\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="HTML\images\PAEX1402_eblast_top_banner_corrected.png" />
