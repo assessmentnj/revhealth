@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5968F8A2-2927-415A-8042-509E722CC88C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\.DS_Store" />
+    <Content Include="Assets\Fragment Asset\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
+    <Content Include="Assets\Layout\Colors.rtf" />
+    <Content Include="Assets\Layout\PAEX1402_Eblast_v3FOF.pdf" />
+    <Content Include="Assets\Manuscript\EXPAREL_ISI.docx" />
+    <Content Include="Assets\Manuscript\PAEX1402_email templates_012714.docx" />
+    <Content Include="Assets\Manuscript\PAEX1402_gorfinefragment_012714_v7.docx" />
+    <Content Include="Guidance\1.%29 What is Approved Email.pdf" />
+    <Content Include="Guidance\2.%29 Sending an Approved Email.pdf" />
+    <Content Include="Guidance\Approved Email Content Creation Guidelines.pdf" />
+    <Content Include="Guidance\Approved Email Guide.pdf" />
+    <Content Include="Guidance\PAEX1402_emailtemplates_v4AMBSA12714.docx" />
+    <Content Include="Guidance\PAEX1402_gorfinefragment_012414_v4cxMBSA12714.docx" />
+    <Content Include="HTML\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
+    <Content Include="misc\PAEX1402_Eblast_v3FOF_LR.pdf" />
+    <Content Include="misc\PAEX1402_emailtemplates_v4AMBSA12714 %281%29.docx" />
+    <Content Include="misc\PAEX1402_gorfinefragment_012414_v4cxMBSA12714 %281%29.docx" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Compliance Piece.docx" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Efficacy Piece.docx" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar ISI.docx" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar PI.docx" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarComplianceImages.zip" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEfficacyImages.zip" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages.zip" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages.zip" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\.DS_Store" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._.DS_Store" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Images\Pacira-logo.png" />
+    <Content Include="Assets\Images\PAEX1402_eblast_top_banner.png" />
+    <Content Include="Assets\Images\PAEX1402_eblast_top_banner_corrected.png" />
+    <Content Include="HTML\Exparel Email Template.html" />
+    <Content Include="HTML\images\Pacira-logo.png" />
+    <Content Include="HTML\images\PAEX1402_eblast_top_banner.png" />
+    <Content Include="HTML\images\PAEX1402_eblast_top_banner_corrected.png" />
+    <Content Include="HTML\images\spacer.gif" />
+    <Content Include="misc\Screen Shot 2014-01-31 at 12.42.23 PM.png" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Email Fragment Compliance.html" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Email Fragment Efficacy.html" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Email Template Fragment.html" />
+    <Content Include="Restolar Demo Files\Restolar\Restolar Email Template.html" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarComplianceImages\spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEfficacyImages\spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateFragmentImages\spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\Restolar.png" />
+    <Content Include="Restolar Demo Files\Restolar\RestolarEmailTemplateImages\spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarComplianceImages\._spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEfficacyImages\._spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateFragmentImages\._spacer.gif" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._Restolar.png" />
+    <Content Include="Restolar Demo Files\Restolar\__MACOSX\RestolarEmailTemplateImages\._spacer.gif" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2575</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2575/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
