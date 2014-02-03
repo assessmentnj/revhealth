@@ -84,6 +84,7 @@
     <Content Include="Veeva\Guidance\Approved Email Guide.pdf" />
     <Content Include="Veeva\Guidance\PAEX1402_emailtemplates_v4AMBSA12714.docx" />
     <Content Include="Veeva\Guidance\PAEX1402_gorfinefragment_012414_v4cxMBSA12714.docx" />
+    <None Include="Properties\PublishProfiles\proofing.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -99,6 +100,7 @@
     <Content Include="Veeva\Exparel Email Template.html" />
     <Content Include="Veeva\GorifineFragment.html" />
     <Content Include="Veeva\Exparel ISI Fragment.html" />
+    <Content Include="Veeva\images\banner-bg.png" />
     <Content Include="Veeva\images\Pacira-logo.png" />
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner_corrected.png" />
