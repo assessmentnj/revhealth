@@ -103,7 +103,9 @@
     <Content Include="Veeva\images\banner-bg.png" />
     <Content Include="Veeva\images\Pacira-logo.png" />
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner.png" />
+    <Content Include="Veeva\images\PAEX1402_eblast_top_banner_corrected - Copy.png" />
     <Content Include="Veeva\images\PAEX1402_eblast_top_banner_corrected.png" />
+    <Content Include="Veeva\images\PAEX1402_eblast_top_banner_small.png" />
     <Content Include="Veeva\images\spacer.gif" />
     <Content Include="Veeva\misc\Screen Shot 2014-01-31 at 12.42.23 PM.png" />
     <Content Include="Veeva\Restolar Demo Files\Restolar\Restolar Email Fragment Compliance.html" />
