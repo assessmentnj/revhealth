@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PAEX1402\Assets\.DS_Store" />
     <Content Include="PAEX1402\Assets\Fragment Asset\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
     <Content Include="PAEX1402\Assets\Layout\Colors.rtf" />
     <Content Include="PAEX1402\Assets\Layout\PAEX1402_Eblast_v3FOF.pdf" />
