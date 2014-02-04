@@ -84,6 +84,7 @@
     <Content Include="PAEX1402\Guidance\Approved Email Guide.pdf" />
     <Content Include="PAEX1402\Guidance\PAEX1402_emailtemplates_v4AMBSA12714.docx" />
     <Content Include="PAEX1402\Guidance\PAEX1402_gorfinefragment_012414_v4cxMBSA12714.docx" />
+    <Content Include="PAEX1402\PAEX1402.zip" />
     <None Include="Properties\PublishProfiles\proofing.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
