@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="PAEX1402\images\Pacira-logo_small.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner.png" />
+    <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner_small.png" />
     <Content Include="PAEX1402\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
     <Content Include="PAEX1402\PAEX1402.zip" />
     <None Include="Properties\PublishProfiles\proofing.pubxml" />
@@ -76,7 +77,6 @@
     <Content Include="PAEX1402\Exparel ISI Fragment.html" />
     <Content Include="PAEX1402\images\banner-bg.png" />
     <Content Include="PAEX1402\images\Pacira-logo.png" />
-    <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner_small.png" />
     <Content Include="PAEX1402\images\spacer.gif" />
     <Content Include="Restolar Email Fragment Compliance.html" />
     <Content Include="Restolar Email Fragment Efficacy.html" />
