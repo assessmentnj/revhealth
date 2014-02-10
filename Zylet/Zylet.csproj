@@ -82,6 +82,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blle1401 Zylet Emails\Notes\Notes.txt" />
     <Content Include="blle1401 Zylet Emails\Origianl Source\Email1\images\header_bottom.jpg" />
     <Content Include="blle1401 Zylet Emails\Origianl Source\Email1\images\header_top.jpg" />
     <Content Include="blle1401 Zylet Emails\Origianl Source\Email1\images\logo_bausch_lomb.jpg" />
