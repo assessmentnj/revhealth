@@ -57,11 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PAEX1402\Exparel Email Template.html" />
+    <Content Include="PAEX1402\Confirm Contacting Appropriate Resource.html" />
+    <Content Include="PAEX1402\Providing Administration Guidance.html" />
+    <Content Include="PAEX1402\Invitation.html" />
+    <Content Include="PAEX1402\New Information Announcement.html" />
+    <Content Include="PAEX1402\Providing Precall Information – Option 1.html" />
     <Content Include="PAEX1402\Exparel Email Template - For Proofing.html" />
+    <Content Include="PAEX1402\Continuing a Discussion.html" />
+    <Content Include="PAEX1402\Follow-up Information - Option 2.html" />
     <Content Include="PAEX1402\images\Pacira-logo_small.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner_small.png" />
+    <Content Include="PAEX1402\Follow-up Information - Option 1.html" />
     <Content Include="PAEX1402\PAEX1314_Gorfine_Email_PDF_MV5.pdf" />
     <Content Include="PAEX1402\PAEX1402.zip" />
     <None Include="Properties\PublishProfiles\proofing.pubxml" />
@@ -80,6 +87,8 @@
     <Content Include="PAEX1402\images\banner-bg.png" />
     <Content Include="PAEX1402\images\Pacira-logo.png" />
     <Content Include="PAEX1402\images\spacer.gif" />
+    <Content Include="PAEX1402\Missed Appointment.html" />
+    <Content Include="PAEX1402\Providing Precall Information – Option 2.html" />
     <Content Include="Restolar Email Fragment Compliance.html" />
     <Content Include="Restolar Email Fragment Efficacy.html" />
     <Content Include="Restolar Email Template Fragment.html" />

@@ -1,0 +1,193 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Exparel</title>
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0"
+      marginwidth="0" style="-webkit-font-smoothing:antialiased;background-attachment:scroll;-webkit-text-size-adjust:none;">
+    <style>
+        .banner-bg {
+            background-image: -ms-linear-gradient(top, #8EB2B9 0%, #FCFDFD 100%);
+        }
+    </style>
+    <!-- HTML Name: Providing Precall Information - Option 2 -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#d6dbb0">
+        <tr>
+            <td bgcolor="#f9faf4" width="100%">
+                <table cellpadding="0" cellspacing="0" border="0" align="center">
+                    <tr style="height:74px">
+                        <td align="right" height="74" width="100%" 
+                            style="background-image: url('http://www.revhealthdigital.com/projects/blasts/PAEX1402Veeva/banner-bg.png'); 
+                            background-repeat: repeat-x; height: 74px; ">
+                            <a href="http://www.exparel.com">
+                                <img src='./images/PAEX1402_eblast_top_banner_small.png' alt="EXPAREL" height="74" style="height:74px" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <repeater>
+                                <layout label="New feature">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td width="100%" bgcolor="#d6dbb0">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td width="20px" bgcolor="#f9faf4"> </td>
+                                                        <td bgcolor="#f9faf4" height="19px">
+                                                            <h5 style="color:#222222;font-size:13px;font-weight:normal;margin-top:0;margin-bottom:12px;">
+                                                                <strong>
+                                                                    <singleline label="Title">
+                                                                        <!-- firstname, lastname, credentials -->
+                                                                        <font face="Helvetica">Dear {{accFname}} {{accLname}}, {{accCredentials}},</font> </p>
+                                                                    </singleline>
+                                                                </strong>
+                                                            </h5>
+                                                            <!-- copy section -->
+                                                            <multiline label="LookForward">
+                                                                <p style="color:#222222;font-size:13px;line-height:19px;margin-top:0;margin-bottom:12px;font-weight:normal;">
+                                                                    <font face="Helvetica">
+                                                                        I thought you might like to review the following in advance of our discussion tomorrow. I'm glad you'd like to hear more about how EXPAREL can help manage your patients’ postsurgical pain.
+                                                                    </font>
+                                                                </p>
+                                                            </multiline>
+                                                            <!-- end of copy section -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" bgcolor="#d6dbb0">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td width="20px" bgcolor="#f9faf4"> </td>
+                                                        <td bgcolor="#f9faf4">
+                                                            <multiline label="Appreciate">
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <!-- Gorfine Fragment - Start Approved Document stack loop. This should open with a layout tag -->
+                                                                    {{insertEmailFragments}}                                                                   
+                                                                    <!-- Gorfine Fragment - End Approved Document stack loop.  This should end with a layout tag -->
+                                                                </table>
+                                                            </multiline>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- begin ISI-->
+                                        <tr>
+                                            <td width="100%" bgcolor="#f9faf4">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <!-- ISI Fragment - Start Approved Document stack loop. This should open with a layout tag -->
+                                                    {{emailTemplateFragment}}
+                                                    <!-- ISI Fragment - End Approved Document stack loop.  This should end with a layout tag -->
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- end ISI-->
+                                        <tr>
+                                            <td width="100%" bgcolor="#d6dbb0">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td width="20px" bgcolor="#f9faf4"> </td>
+                                                        <td bgcolor="#f9faf4">
+                                                            <!-- signoff section -->
+                                                            <multiline label="Appreciate">
+                                                                <p style="color:#222222;font-size:13px;line-height:19px;margin-top:0;margin-bottom:12px;font-weight:normal;">
+                                                                    <font face="Helvetica">
+                                                                        I look forward to speaking with you about how treating pain at the source with EXPAREL can help control postsurgical pain and reduce the need for opioids in your patients.
+                                                                        <br />&nbsp;<br />
+                                                                        Thank you so much for your interest.
+                                                                        <br />
+                                                                        Sincerely,
+                                                                        <br />
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;{{userName}}
+                                                                        <br />
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;{{User.Title}}
+                                                                    </font>
+                                                                </p>
+                                                            </multiline>
+                                                            <!-- end of signoff section -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" bgcolor="#d6dbb0">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td width="20px" bgcolor="#f9faf4"> </td>
+                                                        <td bgcolor="#f9faf4" style="font-size:x-small;">
+                                                            <p>
+                                                                <font face="Helvetica">
+                                                                    If you prefer not to receive future emails, please click here to <a href="{{unsubscribe_product_link}}">unsubscribe</a>.
+                                                                </font>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="center" bgcolor="#f9faf4">
+                                                <a href="http://www.pacira.com">
+                                                    <img src="./images/Pacira-logo.png" alt="Pacira" width="200" style="max-width:200px" />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="center" bgcolor="#005261" style="color:#fffffe;font-size:13px;line-height:19px;margin-top:0;margin-bottom:12px;font-weight:normal;">
+                                                <table>
+                                                    <tr>
+                                                        <td colspan="3" align="center">
+                                                            <font face="Helvetica">
+                                                                Copyright &copy; 2014 Pacira Pharmaceuticals, Inc.
+                                                            </font>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <font face="Helvetica">
+                                                                Parsippany, NJ 07054
+                                                            </font>
+                                                        </td>
+                                                        <td>
+                                                            <font face="Helvetica">
+                                                                AP-EXP-099B
+                                                            </font>
+                                                        </td>
+                                                        <td>
+                                                            <font face="Helvetica">
+                                                                01/14
+                                                            </font>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            &nbsp;
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            &nbsp;
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </layout>
+                            </repeater>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
