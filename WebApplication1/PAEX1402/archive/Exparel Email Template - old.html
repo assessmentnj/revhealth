@@ -18,12 +18,9 @@
             <td bgcolor="#f9faf4" width="100%">
                 <table cellpadding="0" cellspacing="0" border="0" align="center">
                     <tr style="height:74px">
-                        <td align="right" height="74" width="100%" 
-                            style="background-image: url('http://www.revhealthdigital.com/projects/blasts/PAEX1402Veeva/banner-bg.png'); 
-                            background-repeat: repeat-x; height: 74px; ">
-                            <a href="http://www.exparel.com">
-                                <img src='./images/PAEX1402_eblast_top_banner_small.png' alt="EXPAREL" height="74" style="height:74px" />
-                            </a>
+                        <td align="right" height="74" width="100%" class="banner-bg"
+                            style="background-image: url('http://www.revhealthdigital.com/projects/blasts/PAEX1402Veeva/banner-bg.png');background-repeat:repeat-x; height: 74px; ">
+                            <img src='./images/PAEX1402_eblast_top_banner_small.png' height="74" style="height:74px" />
                         </td>
                     </tr>
                     <tr>
@@ -62,7 +59,7 @@
                                                             <multiline label="Appreciate">
                                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                                     <!-- Gorfine Fragment - Start Approved Document stack loop. This should open with a layout tag -->
-                                                                    {{insertEmailFragments}}                                                                   
+                                                                    {{insertEmailFragments}}
                                                                     <!-- Gorfine Fragment - End Approved Document stack loop.  This should end with a layout tag -->
                                                                 </table>
                                                             </multiline>
@@ -71,17 +68,6 @@
                                                 </table>
                                             </td>
                                         </tr>
-                                        <!-- begin ISI-->
-                                        <tr>
-                                            <td width="100%" bgcolor="#f9faf4">
-                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                                    <!-- ISI Fragment - Start Approved Document stack loop. This should open with a layout tag -->
-                                                    {{emailTemplateFragment}}
-                                                    <!-- ISI Fragment - End Approved Document stack loop.  This should end with a layout tag -->
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- end ISI-->
                                         <tr>
                                             <td width="100%" bgcolor="#d6dbb0">
                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -106,6 +92,17 @@
                                                 </table>
                                             </td>
                                         </tr>
+                                        <!-- begin ISI-->
+                                        <tr>
+                                            <td width="100%" bgcolor="#f9faf4">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                    <!-- ISI Fragment - Start Approved Document stack loop. This should open with a layout tag -->
+                                                    {{emailTemplateFragment}}
+                                                    <!-- ISI Fragment - End Approved Document stack loop.  This should end with a layout tag -->
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- end ISI-->
                                         <tr>
                                             <td width="100%" bgcolor="#d6dbb0">
                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -124,9 +121,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2" align="center" bgcolor="#f9faf4">
-                                                <a href="http://www.pacira.com">
-                                                    <img src="./images/Pacira-logo.png" alt="Pacira" width="200" style="max-width:200px" />
-                                                </a>
+                                                <img src="./images/Pacira-logo.png" width="200" style="max-width:200px" />
                                             </td>
                                         </tr>
                                         <tr>

@@ -57,8 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PAEX1402\Exparel Email Template - For Proofing.html" />
     <Content Include="PAEX1402\Exparel Email Template.html" />
+    <Content Include="PAEX1402\Exparel Email Template - For Proofing.html" />
     <Content Include="PAEX1402\images\Pacira-logo_small.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner_small.png" />
@@ -73,8 +73,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PAEX1402\Exparel Email Template - For Proofing - old.html" />
-    <Content Include="PAEX1402\Exparel Email Template - old.html" />
+    <Content Include="PAEX1402\archive\Exparel Email Template - For Proofing - old.html" />
+    <Content Include="PAEX1402\archive\Exparel Email Template - old.html" />
     <Content Include="PAEX1402\GorifineFragment.html" />
     <Content Include="PAEX1402\Exparel ISI Fragment.html" />
     <Content Include="PAEX1402\images\banner-bg.png" />
