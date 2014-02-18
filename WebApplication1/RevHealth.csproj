@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PAEX1402\Exparel Email Template 2 - For Proofing.html" />
     <Content Include="PAEX1402\images\Pacira-logo_small.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner.png" />
     <Content Include="PAEX1402\images\PAEX1402_eblast_top_banner_small.png" />
